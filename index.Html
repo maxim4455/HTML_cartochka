@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ольховик Максим Сергеевич</title>
+    <meta name="author" content="Ольховик Максим Сергеевич">
+    <style>
+        body {
+            background-color: lightblue;
+            font-size: 16pt;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1 {
+            text-align: left;
+        }
+        #course {
+            text-align: right;
+        }
+        #hobby {
+            text-align: center;
+            text-decoration: underline;
+        }
+        #group {
+            color: green;
+            vertical-align: sub;
+        }
+        /* Стили для изображения */
+        figure {
+            text-align: center;
+        }
+        img {
+            border: 2px solid black;
+            display: block;
+            margin: 0 auto;
+        }
+        figcaption {
+            text-align: center;
+            margin-top: 5px; /* Расстояние между изображением и подписью */
+        }
+        /* Стили для таблицы */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Стили для ячеек */
+        .light-gray {
+            background-color: lightgray;
+        }
+        .dark-gray {
+            background-color: darkgray;
+        }
+        /* Стили для формы */
+        form {
+            background-color: gray;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 500px; /* максимальная ширина формы */
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: calc(66.66% - 20px); /* уменьшаем ширину на 20px (10px padding с каждой стороны) */
+            padding: 5px;
+            margin-bottom: 5px; /* уменьшаем отступ снизу */
+            box-sizing: border-box; /* чтобы padding не увеличивал ширину элемента */
+        }
+        input[type="submit"] {
+    width: calc(33.33% - 20px); /* уменьшаем ширину на 20px (10px padding с каждой стороны) */
+    padding: 10px;
+    margin-top: 5px; /* уменьшаем отступ сверху */
+    box-sizing: border-box; /* учитываем padding и border в расчете ширины */
+    background-color: red; /* новый цвет кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* выравниваем кнопку по правому краю */
+	}
+
+    </style>
+</head>
+<body>
+    <h1>Ольховик Максим Сергеевич</h1>
+    <p id="group">ПЗТ-38</p>
+    <p id="course">3 курс</p>
+    <p id="hobby">хобби: компьютерные игры и чтение книг</p>
+    
+    <h2>Времена года</h2>
+<ul type=>
+    <li>Зима</li>
+    <li>Весна</li>
+    <li>Лето</li>
+</ul>
+    
+    <figure>
+        <img src="D:\Games\Ольховик М.С. 10\blabla.png" alt="Изображение" width="300">
+        <figcaption>Задание</figcaption>
+    </figure>
+    
+    <a href="https://github.com" target="_blank">Домой</a>
+    
+    <a href="D:\Games\1C-8.3.18.1334-lite-x86-x64-RePack-WELL(02.21).zip">Скачать архив</a>
+    
+    <table>
+        <tr>
+            <td class="light-gray" colspan="2">Объединенные столбцы</td>
+            <td class="dark-gray" rowspan="2">Объединенные строки</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+    <form>
+        <input type="text" name="name" placeholder="Name:"><br>
+        <input type="email" name="email" placeholder="Email:"><br>
+        <textarea name="speak" rows="6" style="width: 100%" placeholder="Speak:"></textarea><br>
+        <input type="submit" value="SEND!">
+    </form>
+</body>
+</html>
